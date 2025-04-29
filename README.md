@@ -1,6 +1,8 @@
 # GLPI Install and Bastion Guacamole Install
 Tuto installation GLPI GSB
 > Pour Bastion Guacamole - Skip r-ext !
+>
+> Pour GLPI - Skip r-ext !
 
 # Installation des machines
 
