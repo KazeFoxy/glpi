@@ -1,5 +1,5 @@
-# glpi
-GLPI
+# GLPI Install
+Tuto installation GLPI GSB
 
 ## Installation des machines
 
