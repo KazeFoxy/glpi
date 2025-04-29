@@ -60,7 +60,7 @@ cd gsb2025
 vim s-infra.yml  # Enlever les rôles tel que Zabbix, elk et awx
 ansible-playbook -i localhost, -c local s-infra.yml
 ```
-
+> Important : Bien enlever les rôles !
 
 ### Pour r-ext
 
@@ -91,6 +91,7 @@ vim r-ext.yml  # Enlever les rôles tel que Zabbix et syslog-cli
 ansible-playbook -i localhost, -c local r-ext.yml
 ```
 > Important : Faire deux fois le playbook
+> Important : Bien enlever les rôles !
 
 ### Pour r-int
 
@@ -121,6 +122,7 @@ vim r-int.yml  # Enlever les rôles tel que Zabbix et syslog-cli
 ansible-playbook -i localhost, -c local r-int.yml
 ```
 > Important : Faire deux fois le playbook
+> Important : Bien enlever les rôles !
 
 ### Pour s-itil
 
@@ -150,3 +152,4 @@ cd gsb2025
 vim s-itil.yml  # Enlever les rôles tel que Zabbix et syslog-cli
 ansible-playbook -i localhost, -c local s-itil.yml
 ```
+> Important : Bien enlever les rôles !
