@@ -91,6 +91,7 @@ vim r-ext.yml  # Enlever les rôles tel que Zabbix et syslog-cli
 ansible-playbook -i localhost, -c local r-ext.yml
 ```
 > Important : Faire deux fois le playbook
+> 
 > Important : Bien enlever les rôles !
 
 ### Pour r-int
