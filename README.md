@@ -92,3 +92,29 @@ ansible-playbook -i localhost, -c local r-ext.yml
 ```
 > Important : Faire deux fois le playbook
 
+### Pour r-int
+
+```bash
+sed -i ‘s/bookworm/r-int/g’ /etc/host{s,name} ; reboot
+```
+
+ou
+
+```bash
+git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
+export HOST=r-int 
+curl 192.168.99.99/gsbstore/inst1|bash
+reboot # on redemarre
+```
+
+**Puis**
+
+```
+mkdir -p tools/ansible ; cd tools/ansible
+git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
+cd gsb2025
+vim r-int.yml  # Enlever les rôles tel que Zabbix et syslog-cli
+ansible-playbook -i localhost, -c local r-int.yml
+```
+> Important : Faire deux fois le playbook
+
