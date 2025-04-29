@@ -3,6 +3,7 @@ GLPI
 
 ## Installation des machines
 
+### s-adm
 ```bash
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
 ```
