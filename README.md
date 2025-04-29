@@ -5,9 +5,6 @@ GLPI
 
 ```bash
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
-```
-
-```bash
 cd gsb2025/scripts/
 ```
 
