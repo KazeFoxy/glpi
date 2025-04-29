@@ -1,14 +1,14 @@
 # GLPI Install
 Tuto installation GLPI GSB
 
-## Installation des machines
+# Installation des machines
 
 ```bash
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
 cd gsb2025/scripts/
 ```
 
-### Pour s-adm
+## Pour s-adm
 ```bash
 mkvm -r -s s-adm
 ```
@@ -32,7 +32,7 @@ reboot # on redemarre
 mkdir -p tools/ansible ; cd tools/ansible git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git cd gsb2025/pre bash inst-depl cd /root/tools/ansible/gsb2025/pre DEPL=192.168.99.99 bash gsbboot cd ../.. ; bash pull-config
 ```
 
-### Pour s-infra
+## Pour s-infra
 
 ```bash
 mkvm -r -s s-infra
@@ -62,7 +62,7 @@ ansible-playbook -i localhost, -c local s-infra.yml
 ```
 > Important : Bien enlever les rôles !
 
-### Pour r-ext
+## Pour r-ext
 
 ```bash
 mkvm -r -s r-ext
@@ -94,7 +94,7 @@ ansible-playbook -i localhost, -c local r-ext.yml
 > 
 > Important : Faire deux fois le playbook
 
-### Pour r-int
+## Pour r-int
 
 ```bash
 mkvm -r -s r-int
@@ -126,7 +126,7 @@ ansible-playbook -i localhost, -c local r-int.yml
 > 
 > Important : Faire deux fois le playbook
 
-### Pour s-itil
+## Pour s-itil
 
 ```bash
 mkvm -r -s s-itil
