@@ -95,10 +95,14 @@ ansible-playbook -i localhost, -c local r-ext.yml
 ### Pour r-int
 
 ```bash
+mkvm -r -s r-int
+```
+
+```bash
 sed -i ‘s/bookworm/r-int/g’ /etc/host{s,name} ; reboot
 ```
 
-ou
+**ou**
 
 ```bash
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
