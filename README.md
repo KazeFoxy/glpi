@@ -17,7 +17,7 @@ mkvm -r -s s-adm
 sed -i 's/bookworm/s-adm/g' /etc/host{s,name} ; reboot
 ```
 
-ou
+**ou**
 
 ```
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
@@ -26,7 +26,7 @@ curl 192.168.99.99/gsbstore/inst1|bash
 reboot # on redemarre
 ```
 
-Puis 
+**Puis**
 
 ```
 mkdir -p tools/ansible ; cd tools/ansible git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git cd gsb2025/pre bash inst-depl cd /root/tools/ansible/gsb2025/pre DEPL=192.168.99.99 bash gsbboot cd ../.. ; bash pull-config
@@ -38,7 +38,7 @@ mkdir -p tools/ansible ; cd tools/ansible git clone https://gitea.lyc-lecastel.f
 sed -i ‘s/bookworm/s-infra/g’ /etc/host{s,name} ; reboot
 ```
 
-ou
+**ou**
 
 ```bash
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
@@ -47,7 +47,7 @@ curl 192.168.99.99/gsbstore/inst1|bash
 reboot # on redemarre
 ```
 
-Puis 
+**Puis**
 
 ```bash
 mkdir -p tools/ansible ; cd tools/ansible
