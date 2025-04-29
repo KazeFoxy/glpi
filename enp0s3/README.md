@@ -1,5 +1,7 @@
 # Configuration enp0s3
 
+Exemple de configuration du fichier ```/etc/network/interfaces``` ou ```/etc/network/interfaces.d/enp0s3```
+
 ## DHCP
 
 ```bash
