@@ -14,13 +14,13 @@ cd gsb2025/scripts/
 mkvm -r -s s-adm
 ```
 
-```
+```bash
 sed -i 's/bookworm/s-adm/g' /etc/host{s,name} ; reboot
 ```
 
 **ou**
 
-```
+```bash
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
 export HOST=s-adm 
 curl 192.168.99.99/gsbstore/inst1|bash
@@ -116,7 +116,7 @@ reboot # on redemarre
 
 **Puis**
 
-```
+```bash
 mkdir -p tools/ansible ; cd tools/ansible
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
 cd gsb2025
@@ -148,7 +148,7 @@ reboot # on redemarre
 
 **Puis**
 
-```
+```bash
 mkdir -p tools/ansible ; cd tools/ansible
 git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git
 cd gsb2025
