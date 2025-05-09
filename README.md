@@ -40,7 +40,7 @@ mkvm -r -s s-infra
 ```
 
 ```bash
-sed -i ‘s/bookworm/s-infra/g’ /etc/host{s,name} ; reboot
+sed -i 's/bookworm/s-infra/g' /etc/host{s,name} ; reboot
 ```
 
 **ou**
@@ -70,7 +70,7 @@ mkvm -r -s r-ext
 ```
 
 ```bash
-sed -i ‘s/bookworm/r-ext/g’ /etc/host{s,name} ; reboot
+sed -i 's/bookworm/r-ext/g' /etc/host{s,name} ; reboot
 ```
 
 **ou**
@@ -102,7 +102,7 @@ mkvm -r -s r-int
 ```
 
 ```bash
-sed -i ‘s/bookworm/r-int/g’ /etc/host{s,name} ; reboot
+sed -i 's/bookworm/r-int/g' /etc/host{s,name} ; reboot
 ```
 
 **ou**
@@ -134,7 +134,7 @@ mkvm -r -s s-itil
 ```
 
 ```
-sed -i ‘s/bookworm/s-itil/g’ /etc/host{s,name} ; reboot
+sed -i 's/bookworm/s-itil/g' /etc/host{s,name} ; reboot
 ```
 
 **ou**
