@@ -133,7 +133,7 @@ ansible-playbook -i localhost, -c local r-int.yml
 mkvm -r -s s-itil
 ```
 
-```
+```bash
 sed -i 's/bookworm/s-itil/g' /etc/host{s,name} ; reboot
 ```
 
