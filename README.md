@@ -11,7 +11,7 @@ cd gsb2025/scripts/
 
 ## Pour s-adm
 ```bash
-mkvm -r -s s-adm
+bash mkvm -r -s s-adm
 ```
 
 ```bash
@@ -36,7 +36,7 @@ mkdir -p tools/ansible ; cd tools/ansible git clone https://gitea.lyc-lecastel.f
 ## Pour s-infra
 
 ```bash
-mkvm -r -s s-infra
+bash mkvm -r -s s-infra
 ```
 
 ```bash
@@ -66,7 +66,7 @@ ansible-playbook -i localhost, -c local s-infra.yml
 ## Pour r-ext
 
 ```bash
-mkvm -r -s r-ext
+bash mkvm -r -s r-ext
 ```
 
 ```bash
@@ -98,7 +98,7 @@ ansible-playbook -i localhost, -c local r-ext.yml
 ## Pour r-int
 
 ```bash
-mkvm -r -s r-int
+bash mkvm -r -s r-int
 ```
 
 ```bash
@@ -130,7 +130,7 @@ ansible-playbook -i localhost, -c local r-int.yml
 ## Pour s-itil
 
 ```bash
-mkvm -r -s s-itil
+bash mkvm -r -s s-itil
 ```
 
 ```bash
