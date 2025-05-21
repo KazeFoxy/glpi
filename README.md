@@ -29,8 +29,12 @@ reboot # on redemarre
 
 **Puis**
 
-```
+```bash
 mkdir -p tools/ansible ; cd tools/ansible git clone https://gitea.lyc-lecastel.fr/gsb2025/gsb2025.git cd gsb2025/pre bash inst-depl cd /root/tools/ansible/gsb2025/pre DEPL=192.168.99.99 bash gsbboot cd ../.. ; bash pull-config
+```
+
+```bash
+reboot
 ```
 
 ## Pour s-infra
