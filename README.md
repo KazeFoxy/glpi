@@ -126,6 +126,8 @@ ansible-playbook -i localhost, -c local r-int.yml
 > 💡 Important : Bien enlever les rôles !
 > 
 > 💡 Important : Faire deux fois le playbook
+>
+> 💡 Important : Pour Guacamole ajouter route r-int vers DMZ : ```ip route add 192.168.100.0 via 192.168.200.253```
 
 ## Pour s-itil
 
